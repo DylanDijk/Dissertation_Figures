@@ -1,0 +1,9 @@
+name: "Dissertation-Figures"
+output_dir: "."
+navbar:
+  title: "Dissertation Figures"
+  left:
+    - text: "Figure 1"
+      href: Figure1.html
+    - text: "Figure 2"
+      href: Figure2.html
