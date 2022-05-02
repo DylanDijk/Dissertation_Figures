@@ -1,12 +1,9 @@
 ---
 title: "Figure8"
-author: "Dylan Dijk"
-date: "02/05/2022"
-output: html_document
 ---
 
 
-```{r, echo = FALSE, message=FALSE, warning=FALSE}
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 8, fig.width = 8}
 
 date = "2022-04-04"
 
