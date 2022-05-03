@@ -1,0 +1,31 @@
+---
+title: "Figure10"
+---
+
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 8, fig.width = 8, cache = T}
+#### Figure 10 ####
+
+
+library(cranly)
+library(RWsearch)
+library(igraph)
+library(plotly)
+
+date = "2022-02-20"
+#date = "2022-04-04"
+
+
+
+#### This is loading the ratio connectivity distance ####
+load(paste0("Data/distance_matrices/",date,"/ratio_connectivity_matrix_",date,".RData"))
+
+
+All_taskviews_dist_mat[lower.tri(All_taskviews_dist_mat)] = t(All_taskviews_dist_mat)[lower.tri(All_taskviews_dist_mat)]
+plot_ly(x=colnames(All_taskviews_dist_mat), y=rownames(All_taskviews_dist_mat),
+        z = All_taskviews_dist_mat, type = "heatmap")
+
+
+
+
+```

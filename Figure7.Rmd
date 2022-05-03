@@ -2,7 +2,7 @@
 title: "Figure7"
 ---
 
-```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 10, fig.width = 10}
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 10, fig.width = 10, cache = T}
 
 library(RWsearch)
 library(plotly)

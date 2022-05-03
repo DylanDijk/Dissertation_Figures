@@ -1,0 +1,33 @@
+---
+title: "Figure9"
+---
+
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 8, fig.width = 8, cache = T}
+date = "2022-04-04"
+
+load(paste0("Data/taskviews_sub_graphs/",date,"/taskviews_author_sub_graphs_",date,".RData"))
+
+library(RWsearch)
+library(cranly)
+library(igraph)
+library(bc3net)
+
+
+tvdb_load("Data/saved_TASK_VIEW_snapshots/tvdb-2022-0404.rda")
+
+
+
+############################
+
+medical_imaging_author_sub_graphs_igraph = as.igraph(taskviews_author_sub_graphs$MedicalImaging)
+giant_medical_imaging_author_sub_graphs_igraph = getgcc(medical_imaging_author_sub_graphs_igraph)
+
+giant_Medical_imaging_cranly = subset(taskviews_author_sub_graphs$MedicalImaging, author = V(giant_medical_imaging_author_sub_graphs_igraph)$name, only = TRUE, exact = TRUE)
+
+
+plot(giant_Medical_imaging_cranly)
+
+```
+
+

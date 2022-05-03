@@ -2,7 +2,7 @@
 title: "Figure 3"
 ---
 
-```{r, echo = FALSE, message=FALSE, warning=FALSE}
+```{r, echo = FALSE, message=FALSE, warning=FALSE, cache = T}
 load(file = "Data/saved_CRAN_snapshots/built_networks_04_04_2022.rda")
 
 library(cranly)
