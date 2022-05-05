@@ -2,6 +2,9 @@
 title: "Figure10"
 ---
 
+Similarity matrix constructed by computing the similarity measure given by
+equation (4) pairwise on the Task Views. Using the Task View snapshot taken on the
+20th of February 2022.
 
 ```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 10, fig.width = 10, cache = T}
 #### Figure 10 ####

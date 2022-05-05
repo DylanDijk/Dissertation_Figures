@@ -2,6 +2,7 @@
 title: "Figure9"
 ---
 
+Largest component of the author network of authors who have published packages belonging to the MedicalImaging Task View.
 
 ```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 10, fig.width = 15, cache = T}
 date = "2022-04-04"

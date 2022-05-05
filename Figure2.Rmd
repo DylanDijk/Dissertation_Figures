@@ -2,6 +2,9 @@
 title: "Figure 2"
 ---
 
+The author collaboration network for Patrice Kiener (author of the RWsearch R package).
+
+
 ```{r, echo = FALSE, message=FALSE, warning=FALSE, cache = T}
 load(file = "Data/saved_CRAN_snapshots/built_networks_04_04_2022.rda")
 

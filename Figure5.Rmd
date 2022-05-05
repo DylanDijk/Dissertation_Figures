@@ -2,6 +2,9 @@
 title: "Figure 5"
 ---
 
+$(x, y)$ element is the number of packages in both Task View x and y divided by
+the number of packages in task view y (20th of February 2022).
+
 ```{r, echo = FALSE, message=FALSE, warning=FALSE,  fig.height = 10, fig.width = 10, cache = T}
 
 

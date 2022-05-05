@@ -2,7 +2,12 @@
 title: "Figure 3"
 ---
 
-```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 10, fig.width = 15}
+Author network for Robert Tibshirani (author of the glmnet R package). The
+figure shows that the package data extracted from CRAN represents these variations in
+names as individual authors.
+
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 10, fig.width = 15, cache = T}
 load(file = "Data/saved_CRAN_snapshots/built_networks_04_04_2022.rda")
 
 library(cranly)

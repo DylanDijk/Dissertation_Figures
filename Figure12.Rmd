@@ -2,6 +2,7 @@
 title: "Figure12"
 ---
 
+Similarity matrix from similarity measure using package dependencies.
 
 ```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 10, fig.width = 10, cache = T}
 #### Figure 10 ####

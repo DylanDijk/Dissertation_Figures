@@ -3,6 +3,8 @@ title: "Figure13"
 ---
 
 
+Similarity matrix from similarity measure using Task View text similarity.
+
 ```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 10, fig.width = 10, cache = T}
 #### Figure 13 ####
 

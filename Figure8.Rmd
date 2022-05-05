@@ -2,8 +2,10 @@
 title: "Figure8"
 ---
 
+Author network of authors who have published packages belonging to the ExperimentalDesign Task View. This is the Task View with the smallest largest component
+as a proportion to the total number of authors.
 
-```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 8, fig.width = 10}
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 8, fig.width = 10, cache=T}
 
 date = "2022-04-04"
 
