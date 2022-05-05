@@ -1,0 +1,41 @@
+---
+title: "Figure13"
+---
+
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 10, fig.width = 10, cache = T}
+#### Figure 13 ####
+
+
+library(cranly)
+library(RWsearch)
+library(igraph)
+library(plotly)
+
+date = "2022-04-04"
+
+
+#############################################
+
+
+load(file = paste0("Data/distance_matrices/",date,"/Task_View_cosine_sim_mat.RData"))
+#   Task_View_cosine_sim_mat = 1 - Task_View_cosine_sim_mat
+diag(Task_View_cosine_sim_mat) = 0
+
+
+load(file = paste0("Data/distance_matrices/",date,"/ratio_connectivity_matrix_",paste0(date),".RData"))
+
+
+
+
+
+# Making the text similarity matrix have same order as the package dependency similarity
+Task_View_cosine_sim_mat_select = Task_View_cosine_sim_mat[rownames(All_taskviews_dist_mat), colnames(All_taskviews_dist_mat)]
+
+
+plot_ly(x=colnames(Task_View_cosine_sim_mat_select), y=rownames(Task_View_cosine_sim_mat_select),
+        z = Task_View_cosine_sim_mat_select, type = "heatmap")
+
+
+
+```

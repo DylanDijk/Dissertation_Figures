@@ -3,7 +3,7 @@ title: "Figure8"
 ---
 
 
-```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 8, fig.width = 10, cache = T}
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 8, fig.width = 10}
 
 date = "2022-04-04"
 
