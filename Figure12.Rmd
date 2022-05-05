@@ -3,7 +3,7 @@ title: "Figure12"
 ---
 
 
-```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 8, fig.width = 8, cache = T}
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 10, fig.width = 10, cache = T}
 #### Figure 10 ####
 
 

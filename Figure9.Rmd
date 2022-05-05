@@ -3,7 +3,7 @@ title: "Figure9"
 ---
 
 
-```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 8, fig.width = 8, cache = T}
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.height = 10, fig.width = 10, cache = T}
 date = "2022-04-04"
 
 load(paste0("Data/taskviews_sub_graphs/",date,"/taskviews_author_sub_graphs_",date,".RData"))
